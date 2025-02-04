@@ -160,7 +160,6 @@ public class Main {
                             JSONObject keywordObj = items.getJSONObject(i);
                             double importance = keywordObj.getDouble("importance");
                             String keyword = keywordObj.getString("keyword");
-                            // Print without curly braces or quotes
                             System.out.printf("Importance: %.2f, Keyword: %s%n", importance, keyword);
                         }
                     } else {
